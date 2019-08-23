@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CursoSpringIonic</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="com.emerfcouto.cursospringbootionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>EFC Sistema de Pedidos</name>
+    <description>Um estudo de caso sobre Spring Boot e Ionic</description>
+    <author email="emerfcouto@hotmail.com" href="https://github.com/emerfcouto/">Emerson Franklin do Couto</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -101,4 +101,10 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <engine name="browser" spec="~5.0.4" />
     <plugin name="cordova-plugin-camera" spec="^4.1.0" />
+    <plugin name="cordova-android-support-gradle-release" spec="^3.0.1">
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
+    </plugin>
+    <engine name="android" spec="~8.0.0" />
+    <plugin name="cordova-plugin-androidx" spec="^1.0.2" />
+    <plugin name="cordova-plugin-androidx-adapter" spec="^1.1.0" />
 </widget>
